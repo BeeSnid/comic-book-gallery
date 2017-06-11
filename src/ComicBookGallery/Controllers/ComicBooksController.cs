@@ -7,10 +7,10 @@ using System.Web.Mvc;
 namespace ComicBookGallery.Controllers
 {
     public class ComicBooksController : Controller
+     {
+        public ActionResult Detail()
         {
-        public string Detail()
-        {
-            return "Hello from the comic books controller!";
+            return View();
         }
-       }
-    }
+     }
+ }
